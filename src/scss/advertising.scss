@@ -1,0 +1,242 @@
+.block-advertising {
+    background: #F8F200;
+    width: 100%;
+    height: 100%;
+}
+
+//я тут
+.block-advertising-img-label {
+
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns:  auto;
+    margin-left: 12px;
+    margin-right: 12px;
+    gap: 8px;
+
+}
+
+.block-advertising-img-pk {
+    background: url(../img/imagesPk.svg);
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    grid-column: 1 / 4;
+    
+}
+
+.block-advertising-img-icons-one {
+    background: url(../img/hplogo.svg);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.block-advertising-img-icons-two {
+
+    background: url(../img/X.svg);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.block-advertising-img-icons-three {
+    background: url(../img/CyberpunkSVG.svg);
+    height: 50px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+//повторяеться код
+.block-advertising-one-text {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 70px;
+    font-size: 30px;
+    color: black;
+    font-family: Archangelsk;
+}
+//повторяеться код
+.block-advertising-two-text {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 25px;
+    font-size: 16px;
+    color: black;
+    font-family: Roboto;
+}
+
+.block-advertising-icon-and-text {
+    display: grid;
+    grid-template-columns: 25px 150px;
+    padding-top: 27px;
+    margin-left: 12px;
+
+    
+}
+
+.block-advertising-icon-and-text-one{
+    background: url(../img/color_lens.svg);
+    height: 24px;
+    width: 24px;
+
+    background-repeat: no-repeat;
+
+    
+}
+.block-advertising-icon-and-text-two{
+    background: url(../img/auto_awesome.svg);
+    height: 24px;
+    width: 24px;
+   
+    background-repeat: no-repeat;
+}
+.block-advertising-icon-and-text-three{
+    background: url(../img/auto_awesome_motion.svg);
+    height: 24px;
+    width: 24px;
+    
+    background-repeat: no-repeat;
+    
+}
+.block-advertising-text-one {
+
+    width: 200px;
+    height: 40px;
+    padding-left: 12px;
+    font-size: 16px;
+}   
+
+#block-advertising-button {
+    margin-top: 40px;
+    margin-left: 12px;
+    
+}
+
+.block-advertising-yellow {
+    height: 70px;
+}
+
+
+@media screen and (min-width: 1024px) {
+    //Блок 4
+
+    .block-advertising {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        .block-advertising-img-label {
+
+            .block-advertising-img-pk {
+                width: 460px;
+                height: 317px; 
+                background-position: center;
+                grid-column: 1;
+                background-size: 460px 317px;
+               
+                
+            }
+            .block-advertising-img-icons-one {
+                background-position: center;
+                width: 100%;
+                height: 80px;
+                background-size: 80px 80px;
+                
+                
+                
+            }
+            .block-advertising-img-icons-two {
+                width: 100%;
+                background-position: center;
+                height: 90px;
+                background-size: 90px;
+                
+                
+            }
+            .block-advertising-img-icons-three {
+                width: 100%;
+                background-position: center;
+                height: 80px;
+                background-size: 100%;
+                background-size: 320px;
+                
+            }
+
+        }
+    }
+
+
+    .block-advertising-grid-text {
+        padding-left: 24px;
+        
+        .block-advertising-one-text {
+            font-size: 62px;
+            width: 460px; 
+        }
+        .block-advertising-two-text {
+            font-size: 18px;
+            width: 460px;
+
+        }
+        .block-advertising-text-one {
+            font-size: 18px;
+        }
+        .one-block-text-button-p {
+            font-size: 18px;
+        }
+
+        .block-advertising-icon-and-text-one {
+            width: 32px;
+            height: 32px;
+            background-size: 32px;
+        }
+
+        .block-advertising-icon-and-text-two {
+            width: 32px;
+            height: 32px;
+            background-size: 32px;
+        }
+
+        .block-advertising-icon-and-text-three {
+            width: 32px;
+            height: 32px;
+            background-size: 32px;
+        }
+
+        
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    //Блок 4
+    .block-advertising-img-label {
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100%;
+        height: 100%;
+
+        .block-advertising .block-advertising-img-label .block-advertising-img-pk{
+            grid-column: 2;
+        }
+        
+        
+        .block-advertising-img-icons-one {
+            width: 200px;
+            height: 40px;
+            grid-column: 1;
+        }
+        .block-advertising-img-icons-two {
+            width: 200px;
+            height: 40px;
+            grid-column: 2;
+        }
+        .block-advertising-img-icons-three {
+            width: 200px;
+            height: 40px;
+            grid-column: 3/5;
+        }
+        
+
+    }
+}
